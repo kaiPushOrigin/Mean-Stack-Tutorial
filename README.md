@@ -20,4 +20,4 @@ CMD line stuff:
 
 Code Stuff:
 
-1. app.use(express.static(__dirname + "/ public ")); //static - html, javascript and CSS file. Telling the server to look for static files in 'public' directory.
+1. app.use(express.static(__dirname + "/public")); //static - html, javascript and CSS file. Telling the server to look for static files in 'public' directory.
