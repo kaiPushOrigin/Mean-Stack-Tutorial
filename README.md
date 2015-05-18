@@ -21,3 +21,9 @@ CMD line stuff:
 Code Stuff:
 
 1. app.use(express.static(__dirname + "/public")); //static - html, javascript and CSS file. Telling the server to look for static files in 'public' directory.
+
+2. <html ng-app> <!--The ng-app directive defines an AngularJS application. -->
+
+3. <input ng-model="test"> <!-- The ng-model directive binds the value of HTML controls (input, select, textarea) to application data. -->
+
+4. <table class="table" ng-control="AppCtrl"> <!--The ngController directive attaches a controller class to the view-->
