@@ -16,3 +16,8 @@ CMD line stuff:
 
 1. npm install express : add express module
 2. node server : run the server
+
+
+Code Stuff:
+
+1. app.use(express.static(__dirname + "/ public ")); //static - html, javascript and CSS file. Telling the server to look for static files in 'public' directory.
