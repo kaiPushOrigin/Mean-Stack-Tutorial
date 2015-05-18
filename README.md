@@ -27,3 +27,10 @@ Code Stuff:
 3. <input ng-model="test"> <!-- The ng-model directive binds the value of HTML controls (input, select, textarea) to application data. -->
 
 4. <table class="table" ng-control="AppCtrl"> <!--The ngController directive attaches a controller class to the view-->
+
+5. <tr ng-repeat="contact in contactList"></tr> <!-- The ng-repeat directive repeats an HTML element:-->
+
+5. var contactList = [person1, person2, person3];
+    $scope.contactList = contactList; //allows to use variable contactlist in our view (index.html file)
+
+    -- $scope allows to access (angularJS) variable into our view (index.html)
