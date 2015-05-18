@@ -28,9 +28,9 @@ Code Stuff:
 
 4. <table class="table" ng-control="AppCtrl"> <!--The ngController directive attaches a controller class to the view-->
 
-5. <tr ng-repeat="contact in contactList"></tr> <!-- The ng-repeat directive repeats an HTML element:-->
+5. <tr ng-repeat="contact in contactList"></tr> <!-- The ng-repeat directive repeats an HTML element. contactList is the variable being used from controller.js. Allows us to separate each our our contacts in our contactList variable defined in controller.js-->
 
-5. var contactList = [person1, person2, person3];
+6. var contactList = [person1, person2, person3];
     $scope.contactList = contactList; //allows to use variable contactlist in our view (index.html file)
 
     -- $scope allows to access (angularJS) variable into our view (index.html)

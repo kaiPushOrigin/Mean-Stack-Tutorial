@@ -2,6 +2,8 @@ var myApp = angular.module('myApp', []);
 myApp.controller('AppCtrl', ['$scope', '$http', function($scope, $http) {
     console.log("Hello World from controller");
 
+    $http.get('/contactList') //route to get our data from
+
     person1 = {
     	name: 'Tim',
     	email: 'tim@email1.com',
