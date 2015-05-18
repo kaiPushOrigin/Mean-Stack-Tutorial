@@ -10,3 +10,9 @@ A: M - MongoDB. Database
 
 These four parts make up the MEAN stack. (All based on javaScript)
 RESTful API: how are we gonna interact the data from our database.
+
+
+CMD line stuff:
+
+1. npm install express : add express module
+2. node server : run the server
