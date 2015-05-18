@@ -34,3 +34,5 @@ Code Stuff:
     $scope.contactList = contactList; //allows to use variable contactlist in our view (index.html file)
 
     -- $scope allows to access (angularJS) variable into our view (index.html)
+
+7.  $scope.contactList = response;  //will put the data into our html file
